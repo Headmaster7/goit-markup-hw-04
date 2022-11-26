@@ -137,8 +137,7 @@ body {
   background-position: center;
   max-width: 1600px;
   height: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 .hero .container {
   display: flex;
@@ -279,14 +278,41 @@ body {
   font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
   color: var(--heads-color);
 }
 .cardprofi {
   font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
-  margin-top: 10px;
+  margin-bottom: 16px;
   color: var(--grey-color);
+}
+.soc-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.soc-items {
+  width: 44px;
+  height: 44px;
+}
+.ourteam-list .soc-items:not(:last-child) {
+  margin-right: 10px;
+}
+.soc-links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--second-color);
+}
+
+.soc-links:hover .soc-icons,
+.soc-links:focus .soc-icons {
+  fill: var(--second-color);
 }
 
 /* PARTNERS */
