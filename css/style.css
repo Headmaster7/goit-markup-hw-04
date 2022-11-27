@@ -105,8 +105,10 @@ body {
   margin-right: 40px;
 }
 .contact-icon {
+  fill: currentColor;
   margin-right: 10px;
 }
+
 /* LOGO */
 
 .logo {
