@@ -84,9 +84,8 @@ body {
 }
 .header-email,
 .header-tel {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
 
   font-weight: 500;
   font-size: 14px;
